@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tailwind CSS Framework</title>
+    <!-- Note: CDN is for demo purposes only.  Use npm for in a build process. -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-300 text-gray-900">
+    
+    <header class="bg-indigo-800 text-white py-6 mb-6">
+        <div class="container mx-auto px-4">
+            <h1 class="font-serif text-3xl lg:text-4xl">Introuduction to Tailwind</h1>
+            <p class="text-md max-w-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam sit amet, consectetur adipisicing elit. Debitis laboriosam expedita veniam atque totam? Quod labore minima veniam ipsum rerum obcaecati 
+                assumenda officiis! sit amet, consectetur adipisicing elit. obcaecati id soluta molestiae <a class="font-semibold text-orange-300 hover:text-blue-300" href="#">maiores laudantium</a>?</p>
+        </div>
+    </header>
+
+    <section class="container mx-auto px-4">  
+        <!-- Note: to Create gutters, put a -margin on the container and equal padding on the columns -->
+        <div class="flex flex-wrap -mx-3">
+            <div class="mb-6 md:w-1/2 px-3">
+                <h2 class="font-serif text-2xl lg:text-3xl text-gray-600">Sub heading</h2>
+                <p class="mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate unde laborum, illum soluta non aut corporis facilis, commodi quam quod ea blanditiis tenetur quis natus minima porro distinctio? Atque!</p>
+             <div class="bg-gray-200 border-l-4 border-blue-500 text-blue-700 p-4">
+                 <p>Something interesting is happening here!</p>
+             </div>
+            </div>
+            <div class="mb-6 md:w-1/2 px-3">
+                <h2 class="font-serif text-2xl lg:text-3xl text-gray-600" >Sub Heading</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores sequi soluta recusandae error veritatis quae quaerat tempore modi, quisquam deleniti, non dolore, minima ullam odio possimus iusto. Odit, illo velit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class=" container mx-auto px-4">
+        <div class=" flex flex-wrap">
+                <div class="container mx-auto max-w-md rounded overflow-hidden shadow-lg mb-2 lg:w-1/2 lg:max-w-sm px-1">
+                    <img class="w-full" src="../demo-tailwind/img/img1.jpg" alt="river">
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-xl mb-2 lg:text-2xl">Nature </div>
+                              <p class="text-gray-700 text-base">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                              </p>
+                        </div>
+                        <div class="px-6 py-4">
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#river</span>
+                        </div>
+                </div>
+        
+                <div class=" container mx-auto max-w-md rounded overflow-hidden shadow-lg mb-2 lg:w-1/2 lg:max-w-sm px-1">
+                        <img class="w-full" src="../demo-tailwind/img/img2.jpg" alt="river">
+                            <div class="px-6 py-4">
+                                <div class="font-bold text-xl mb-2 lg:text-2xl">City </div>
+                                  <p class="text-gray-700 text-base">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                                  </p>
+                            </div>
+                            <div class="px-6 py-4">
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#river</span>
+                            </div>
+                </div>
+        
+                <div class=" container mx-auto max-w-md rounded overflow-hidden shadow-lg mb-2 lg:w-1/2 lg:max-w-sm px-1">
+                    <img class="w-full" src="../demo-tailwind/img/img1.jpg" alt="river">
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-xl mb-2">River </div>
+                              <p class="text-gray-700 text-base">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                              </p>
+                        </div>
+                        <div class="px-6 py-4">
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#river</span>
+                        </div>
+            </div>
+        </div>
+        
+    </section>
+
+</body>
+</html>
